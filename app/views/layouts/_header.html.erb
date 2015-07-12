@@ -1,11 +1,12 @@
 <header>
   <div class="container">  
-    <h1><%= link_to "Austin Schaefer", root_path, id: "name_logo" %></h1>
-    <nav>
+    <h1><%= link_to "Austin Schaefer", root_path, id: "main-logo" %></h1>
+    <nav class="main-menu">
       <ul>
-	<li><%= link_to "Projects", projects_path=%></li>
-	<li><%= link_to "About", about_path =%></li>
-	<li><%= link_to "Contact", contact_path=%></li>
+	<li><%= link_to "Projects", projects_path %></li>
+	<!-- TODO: Integrate blog functionality, add blog link. -->
+	<li><%= link_to "Resume", about_path %></li>
+	<li><%= link_to "Contact", contact_path %></li>
       </ul>
     </nav>
   </div>
