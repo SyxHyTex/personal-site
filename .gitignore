@@ -15,3 +15,7 @@
 /log/*
 !/log/.keep
 /tmp
+
+#Ignore idea directories, in case IntelliJ software is used.
+/idea
+/idea/**

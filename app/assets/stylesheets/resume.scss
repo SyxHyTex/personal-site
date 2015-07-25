@@ -1,3 +1,67 @@
 // Place all the styles related to the Resume controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+h1 {
+  font-family: Helvetica, Sans-Serif;
+}
+
+h3 {
+  #work-header {
+
+  }
+}
+
+//For future windows of code, if need be.
+.monospace {
+  font-family: Courier New, Courier, Monospace;
+}
+
+
+
+a {
+  //TODO: Coloring, no underline on links, highlight alters color.
+  #main_logo {
+    //TODO: No underline, font_is(sleek, bold, sans-serif_family)   
+  }
+  //TODO: More specific types of a tags and their classes/ids here.
+}
+
+// CONTAINER ELEMENT STYLING
+nav {
+  .main-menu {
+     
+  }
+  #main {
+    
+  }
+}
+
+div {
+  .container {
+    //TODO: Translucent dark-grey background color
+  }
+}
+
+span{
+  .work-location {
+
+  }
+}
+
+section {
+  .skill-section {
+
+  }
+  .role-name {
+   
+  } 
+  .work-history {
+
+  }
+}
+
+footer {
+  .footer {
+
+  }
+}
